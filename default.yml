@@ -6,32 +6,44 @@ matches:
     replace: ▶
   - trigger: "@<"
     replace: ◀
+  - trigger: "@,"
+    replace: ▼
   - trigger: "\\>>"
     replace: 》
   - trigger: "\\<<"
     replace: 《
   - trigger: "@1"
-    replace: ①
+    replace: ➊
   - trigger: "@2"
-    replace: ②
+    replace: ➋
   - trigger: "@3"
-    replace: ③
+    replace: ➌
   - trigger: "@4"
-    replace: ④
+    replace: ➍
   - trigger: "@5"
-    replace: ⑤
+    replace: ➎
   - trigger: "@6"
-    replace: ⑥
+    replace: ➏
   - trigger: "@7"
-    replace: ⑦
+    replace: ➐
   - trigger: "@8"
-    replace: ⑧
+    replace: ➑
   - trigger: "@9"
-    replace: ⑨
+    replace: ➒
   - trigger: "@-"
     replace: ━
   - trigger: "\\dot"
     replace: ·
+  - trigger: "->"
+    replace: ➝
+  - trigger: "\\..."
+    replace: ... 생략 ...
+  - trigger: "\\todo"
+    replace: <todo> 01
+  - trigger: "\\note"
+    replace: <note></note>
+  - trigger: "\\lv"
+    replace: 단계
   - trigger: "@lorem"
     replace: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
   - trigger: "@desk"
@@ -43,3 +55,4 @@ matches:
         type: date
         params:
           format: "%Y.%m.%d."
+    
